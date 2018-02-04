@@ -9,12 +9,12 @@ Zmbackup is a reliable hot backup software for Zimbra Open Source Email Platform
 This documentation covers the Zmbackup 1.2.0, the first release to come with this material.
 
 ## User Documentation
-- [Install](http://zmbackup.readthedocs.io/en/latest/install/install/)
- - [Requirements](http://zmbackup.readthedocs.io/en/latest/install/install/#requirements)
- - [Pre-install Process](http://zmbackup.readthedocs.io/en/latest/install/install/#pre-install-process)
- - [Install Script](http://zmbackup.readthedocs.io/en/latest/install/install/#install-script)
- - [Options](http://zmbackup.readthedocs.io/en/latest/install/install/#options)
- - [Installation Process]()
- - [Upgrade/Downgrade Process]()
- - [Reinstall]()
- - [Uninstall]()
+- [Install](http://zmbackup.readthedocs.io/en/master/install/)
+ - [Requirements](http://zmbackup.readthedocs.io/en/master/install/#requirements)
+ - [Pre-install Process](http://zmbackup.readthedocs.io/en/master/install/#pre-install-process)
+ - [Install Script](http://zmbackup.readthedocs.io/en/master/install/#install-script)
+ - [Options](http://zmbackup.readthedocs.io/en/master/install/#options)
+ - [Installation Process](http://zmbackup.readthedocs.io/en/master/install/#installation-process)
+ - [Upgrade/Downgrade Process](http://zmbackup.readthedocs.io/en/master/install/#upgradedowngrade-process)
+ - [Reinstall](http://zmbackup.readthedocs.io/en/master/install/#reinstall)
+ - [Uninstall](http://zmbackup.readthedocs.io/en/master/install/#uninstall)
