@@ -4,11 +4,16 @@
 Zmbackup is a very powerful software with an easy install process. Before you install the script in your environment, you need to check if your distribution and Zimbra version is compatible.
 
 The following distros are tested:
+
 - Ubuntu Server 16.04 -  ![Support](https://img.shields.io/badge/Support-Release%20Candidate-yellow.svg)
-- CentOS 7 - ![Support](https://img.shields.io/badge/Support-BETA%201-red.svg)
+- Ubuntu Server 14.04 -  ![Support](https://img.shields.io/badge/Support-Release%20Candidate-yellow.svg)
+- CentOS 6 -  ![Support](https://img.shields.io/badge/Support-Release%20Candidate-yellow.svg)
+- CentOS 7 -  ![Support](https://img.shields.io/badge/Support-Release%20Candidate-yellow.svg)
 
 The following versions of Zmbackup are tested:
+
 - Zmbackup 8.7.X -  ![Support](https://img.shields.io/badge/Support-Release%20Candidate-yellow.svg)
+- Zmbackup 8.8.X -  ![Support](https://img.shields.io/badge/Support-Release%20Candidate-yellow.svg)
 
 The following packages are required to be installed, but Zmbackup can handle the install process if you let it do:
 
