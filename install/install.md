@@ -1,6 +1,4 @@
-# Installation
-
-## Requirements
+# Requirements
 Zmbackup is a very powerful software with an easy install process. Before you install the script in your environment, you need to check if your distribution and Zimbra version is compatible.
 
 The following distros are tested:
@@ -29,7 +27,7 @@ The following packages are required to be installed, but Zmbackup can handle the
 * **mktemp** - make a temporary file or directory;
 * **SQLite3** - a relational database management system contained in a C programming library.
 
-## Pre-install Process
+# Pre-install Process
 
 If you use CentOS, first install the package **[epel-release](https://fedoraproject.org/wiki/EPEL)**, as we will need this repository to download part of the dependencies.
 
@@ -50,11 +48,11 @@ Download the latest package with the BETA tag in "Release" section, or git clone
 git clone -b 1.2-version https://github.com/lucascbeyeler/zmbackup.git
 ```
 
-## Install script
+# Install script
 
 The install.sh is the script used to install/upgrade/remove the Zmbackup inside your server. The script was made to replace the zmbackup_wizard, because the later one wasn't very smart when peoples decide to stop the installation in the middle of the execution.
 
-## Options
+# Options
 
 Parameter       | Required | Description
 ----------------|----------|-----------------------------------------------
@@ -62,7 +60,7 @@ Parameter       | Required | Description
 -r, --remove    | no       | Uninstall Zmbackup from the machine
 --force-upgrade | no       | Force the upgrade routine
 
-### Installation Process
+# Installation Process
 
 Inside the project folder, execute the script **install.sh** and follow all the instructions to install the project. To validate if the script is installed, change to your server's zimbra user and execute zmbackup -v.
 
@@ -74,7 +72,7 @@ $ zmbackup -v
   zmbackup version: 1.2.0 Release Candidate
 ```
 
-### Upgrade/Downgrade Process
+# Upgrade/Downgrade Process
 
 The upgrade/downgrade can be done downloading the latest release of Zmbackup to your machine and running the script **install.sh** again. If the release installed is different than the one you are trying to install, the script will execute and modify your environment. To validate if the script is installed, change to your server's zimbra user and execute zmbackup -v. The version showed should be different from the one installed before.
 
@@ -86,7 +84,7 @@ $ zmbackup -v
   zmbackup version: 1.2.0 Release Candidate
 ```
 
-### Reinstall
+# Reinstall
 
 The reinstall process is the same as the Upgrade/Downgrade process. The main difference is that you need to pass an extra paramenter to force the reinstall when the versions are the same. To validate if the script is installed, change to your server's zimbra user and execute zmbackup -v.
 
@@ -98,7 +96,7 @@ $ zmbackup -v
   zmbackup version: 1.2.0 Release Candidate
 ```
 
-### Uninstall
+# Uninstall
 
 The uninstall process can be done downloading the latest release of Zmbackup to your machine and running the script **install.sh** with **-r** or **--remove**. To validate if the script is removed, change to your server's zimbra user and execute zmbackup -v.
 
