@@ -12,3 +12,6 @@ This error means that your config file wasn't found inside the server or some of
 
 ## Code **4**
 The PID file still exist inside your server, probably meaning that a Zmbackup process is in execution and you should wait a little more before execute the process. If a failure occured and no process is in execution, remove the PID file and try again.
+
+## Code **5**
+You used an invalid parameter while trying to use Zmbackup. Check the parameters and see if all of them are in the correct order and if all of them are valid. SEE zmbackup -h
